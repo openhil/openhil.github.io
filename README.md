@@ -33,9 +33,26 @@ You are welcome to join our community chat on [Discord](https://discord.gg/vt6GY
 
 We are looking to spread awareness about the community, talk to more people, and discuss HiL at conferences and meetups. Please share the website as much as you can!
 
+### Community meetings
+
+Hardware in the Loop community
+Tuesday, February 25 · 2:00 – 3:00pm  and every two weeks.
+Time zone: Europe/Paris
+Google Meet joining info
+Video call link: https://meet.google.com/bkm-sams-qpd
+Or dial: ‪(FR) +33 1 73 08 31 91‬ PIN: ‪141 268 879 5765‬#
+More phone numbers: https://tel.meet/bkm-sams-qpd?pin=1412688795765
+Or join via SIP: sip:1412688795765@gmeet.redhat.com 
+
+Please feel free to ping Miguel Angel Ajo on discord, or majopela@redhat.com to get a calendar invite.
+
 ## Presentations and Talks
 
 This section provides a list of presentations and talks related to hardware in the loop.
+
+### 2025
+
+* **[A Cloud Native Workflow for Hardware-in-the-Loop Software Development](https://kccnceu2025.sched.com/event/1txFD?iframe=no)** April 3rd - KubeCon, London - Miguel Angel Ajo, Red Hat
 
 ### 2024
 
@@ -53,6 +70,23 @@ This section provides a list of presentations and talks related to hardware in t
 * **[Jumpstarter: Open Hardware In The Loop for everybody](https://fosdem.org/2024/schedule/event/fosdem-2024-3070-jumpstarter-open-hardware-in-the-loop-for-everybody/)** Feb FOSDEM - Miguel Ángel Ajo & Ricardo Noriega,  Red Hat
 
 * **[Testing in a Box: Streamlining Embedded Systems Testing](https://fosdem.org/2024/schedule/event/fosdem-2024-3196-testing-in-a-box-streamlining-embedded-systems-testing/)** Feb FOSDEM -  Mudit Sharma, Will Salmon, CodeThink
+
+
+## Software
+
+* **[Jumpstarter](https://jumpstarter.dev) is a hardware-in-the-loop (HIL) software designed to facilitate
+  automated testing, CI workflows, and firmware development for hardware labs. It provides a scalable and
+  secure environment for managing test hardware, integrating with enterprise authentication and
+  Kubernetes-based infrastructure. Jumpstarter enables remote control, power management, and
+  automated interaction with test devices, making it a powerful tool for embedded development
+  and hardware validation. Inspired by Labgrid, with a Cloud Native design, and Apache 2 Licensing.
+  
+* **[Labgrid](https://labgrid.readthedocs.io)  is an embedded hardware testing and automation framework
+  designed for remote control and interaction with test hardware. It provides a unified API to manage
+  various test lab setups, enabling reproducible and scalable testing workflows. Labgrid is particularly
+  useful for embedded development, offering features like power cycling, serial access, and
+  network-controlled interactions. GPL Licensed.
+
 
 ## Hardware
 
