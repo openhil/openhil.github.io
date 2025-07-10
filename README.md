@@ -56,6 +56,8 @@ This section provides a list of presentations and talks related to hardware in t
 
 ### 2024
 
+* **[How Balena Releases 100's of Embedded Operating Systems with GitHub Actions in Hours, Not Weeks]()** June 12th GitHub Constellation India 2024 - Vipul Gupta, Balena.
+
 * **[Jumpstarter: Enabling Open hardware in the loop](https://pretalx.com/devconf-cz-2024/talk/7W9CSQ/)** Jun 13th Devconf.cz - Miguel Ángel Ajo Pelayo, Red Hat
 
 * **[Unveiling the Test Champions: Comparing Testing Automation Systems for Embedded Environments](https://www.youtube.com/watch?v=IVgzn5wVgL0)** Apr EOSS24 - Paweł Wieczorek, Collabora
@@ -71,21 +73,34 @@ This section provides a list of presentations and talks related to hardware in t
 
 * **[Testing in a Box: Streamlining Embedded Systems Testing](https://fosdem.org/2024/schedule/event/fosdem-2024-3196-testing-in-a-box-streamlining-embedded-systems-testing/)** Feb FOSDEM -  Mudit Sharma, Will Salmon, CodeThink
 
+## 2023
+
+* **[Testing 100's of OS images: Exploring the architecture from Pull Request to Release](https://ossjapan2023.sched.com/event/1TzRx)** Open Source Summit Japan - Vipul Gupta, Balena,  December 4
+
+
+## Blog Posts
+
+1. [BalenaOS testing with Hardware in the Loop pipelines](https://blog.balena.io/from-pr-to-release-os-testing-at-balena/)
+2. [Maximizing Resources in the Chip Shortage: BalenaOS Testing with virtual testing](https://blog.balena.io/balenaos-testing-goes-virtual/)
+3. [Running Hardware in the loop pipelines on GitHub Actions](https://blog.balena.io/migrating-balenaos-cicd-to-github-actions/)
+
 
 ## Software
 
-* **[Jumpstarter](https://jumpstarter.dev) is a hardware-in-the-loop (HIL) software designed to facilitate
+* **[Jumpstarter](https://jumpstarter.dev)** is a hardware-in-the-loop (HIL) software designed to facilitate
   automated testing, CI workflows, and firmware development for hardware labs. It provides a scalable and
   secure environment for managing test hardware, integrating with enterprise authentication and
   Kubernetes-based infrastructure. Jumpstarter enables remote control, power management, and
   automated interaction with test devices, making it a powerful tool for embedded development
   and hardware validation. Inspired by Labgrid, with a Cloud Native design, and Apache 2 Licensing.
   
-* **[Labgrid](https://labgrid.readthedocs.io)  is an embedded hardware testing and automation framework
+* **[Labgrid](https://labgrid.readthedocs.io)**  is an embedded hardware testing and automation framework
   designed for remote control and interaction with test hardware. It provides a unified API to manage
   various test lab setups, enabling reproducible and scalable testing workflows. Labgrid is particularly
   useful for embedded development, offering features like power cycling, serial access, and
   network-controlled interactions. GPL Licensed.
+
+* **[Leviathan](https://github.com/balena-os/leviathan)** is an hardware testing framework which pairs with the open-source, off-the-shelf hardware testing rig, autokit built balena. Reach out to @vipulgupta2048 for questions. [Getting Started docs](https://balena-os.github.io/leviathan).
 
 
 ## Hardware
@@ -94,6 +109,7 @@ This section provides a list of hardware components, systems, and shops, that ca
 you build hardware in the loop testing rigs
 
 ### Testing rigs
+
 * **[Autokit](https://github.com/balena-io-hardware/autokit-info-doc)**: Balena Autokit is the
     documentation for a testing rig that can be used to test embedded devices: enables power
     switching, wifi testing, HDMI capture and storage switching via SD-MUX.
